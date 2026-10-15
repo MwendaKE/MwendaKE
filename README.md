@@ -1,112 +1,244 @@
 # Mwenda E. Njagi
 
-**Building production-grade software systems. Founder of MwendaSoft.**
+**Founder of MwendaSoft | Software Engineer | Mathematics & Statistics**
 
-I don't push source code. I push architecture, reports, and proof that the software works. Every repository here is a case study — what was built, why it was built that way, and what it looks like in production.
+I build software systems that solve real problems.
+
+As the founder of MwendaSoft, I work across software engineering, web development, data analytics, and AI & automation. My work spans backend architecture, frontend development, databases, infrastructure, Android applications, and desktop software.
+
+My approach is straightforward: **understand the problem, engineer the solution, test the result, and make sure the system works as intended.**
 
 ---
 
 ## What I Build
 
-I build complete software systems — backend, frontend, infrastructure, mobile, and desktop. My stack spans Python, Django, React, PostgreSQL, C++, Java, and Kotlin. I work across web, Android, and desktop, always with the same principle: code should be correct before it is clever, and reliable before it is impressive.
+I build complete software systems, from database design and backend architecture to user interfaces, deployment, and maintenance.
+
+| Area | Technologies |
+|---|---|
+| **Backend Development** | Python, Django, Flask, REST APIs |
+| **Frontend Development** | JavaScript, TypeScript, React, HTML, CSS |
+| **Databases** | PostgreSQL, SQLite, database design and optimization |
+| **Systems Programming** | C and C++ |
+| **Desktop Development** | C++, Qt |
+| **Android Development** | Java, Kotlin, Android SDK |
+| **Data Analytics** | Python, Pandas, NumPy, data visualization, statistical analysis |
+| **Infrastructure** | Linux, Git, deployment, background processing, caching, and automation |
+
+I choose technologies based on the problem and the requirements, not simply because they are popular.
+
+My standard is simple: **correct before clever, reliable before impressive.**
 
 ---
 
 ## Featured Projects
 
-### MwendaSoft
+### MwendaSoft — Business Technology & Software Engineering
 
-A unified software ecosystem bringing four brands under one authentication system — core development services, digital bundles via MPESA, offline-first personal finance, and school management. Multi-gateway payment processing with MPESA, Paystack, and PayPal. Country-based currency intelligence across 184 nations. HMAC-secured PDF receipts. Twenty-three cached endpoints with automated invalidation. Two hundred seventy-seven tests. Production live.
+MwendaSoft is my primary engineering project and the foundation of my work as a software developer.
 
-**Stack:** Django, React, PostgreSQL, Redis, Celery, Cloudinary, Africa's Talking, SendGrid
+It helps small and medium-sized businesses solve operational problems through four core services:
 
----
+- **Web Development** — Professional websites, online catalogs, booking systems, and customer portals.
+- **Data Analytics** — Business dashboards, reports, KPIs, and data-driven insights.
+- **Software Engineering** — Custom systems that bring business processes, information, and workflows together.
+- **AI & Automation** — Practical automation that reduces repetitive work and improves efficiency.
 
-### SeshatAnalytics
+MwendaSoft also provides **specialist services** for businesses that need specific technical improvements to existing websites and applications, including payment integration, SEO, business notifications, digital branding, database migration, and cloud deployment.
 
-A six-collection data analysis platform named after the Egyptian goddess of knowledge. Nineteen analyses spanning health, economics, sports, climate, population, and finance. Fifty-plus Plotly chart functions. One-click ReportLab PDF reports. Automated data pipeline fetching from World Bank, Football-Data.org, Open-Meteo, Yahoo Finance, and CoinGecko with graceful degradation to synthetic data when APIs fail.
+The platform includes a client portal, service requests, quotations, payment processing, receipts, notifications, project tracking, administrative dashboards, and business analytics.
 
-**Stack:** Streamlit, Pandas, NumPy, Plotly, ReportLab
+**Engineering highlights:**
 
----
+- Modular Django and Django REST Framework backend.
+- React and TypeScript frontend.
+- PostgreSQL database with Redis caching and Celery background tasks.
+- Payment integrations for M-Pesa, Paystack, and PayPal.
+- Automated notifications, reporting, and scheduled tasks.
+- Security controls, audit logging, and payment verification.
+- Production deployment using Railway and Cloudflare.
 
-### BittOwl Forensics
-
-A dual-purpose Android application for security research. On the surface, a clean scientific calculator with trigonometric functions, logarithms, and color-coded buttons. Tap the number 7 four times, and a forensic engine awakens — collecting device metadata, installed apps, usage statistics, call logs, SMS conversations, contacts, location, calendar, Bluetooth devices, Wi-Fi networks, downloaded files, email accounts, storage breakdown, network traffic, a front camera photo, and a 10-second audio recording. Seventeen concurrent tasks package everything into an encrypted archive and upload it to Cloudinary. All local traces are then wiped. Built to demonstrate what a seemingly innocent application is technically capable of when users grant permissions without reading.
-
-**Stack:** Java, Android SDK, Camera API, MediaRecorder, SQLite, Cloudinary API, ThreadPoolExecutor
-
----
-
-### GoldenMoney
-
-A desktop personal finance manager built with C++ and Qt. Tracks income, expenses, debts, budgets, and savings through a clean, modern interface. Real-time financial health scoring, monthly trend comparisons, category-based spending analysis with interactive charts, and one-click PDF report generation. Offline-first with local SQLite storage — all financial data stays on the user's machine. Cross-platform across Windows, Linux, and macOS.
-
-**Stack:** C++, Qt5, SQLite, Qt Charts, qmake
+**Stack:** Python, Django, Django REST Framework, React, TypeScript, PostgreSQL, Redis, Celery, Cloudinary  
+**Status:** Production live.
 
 ---
 
-### SMASYS
+### SeshatAnalytics — Data Intelligence Platform
 
-A comprehensive school management system for Kenyan educational institutions, supporting both 8-4-4 and CBC curricula. Twenty-three normalized database tables manage students, staff, academics, examinations, library inventory, and school operations. Multi-school architecture allows managing multiple independent institutions from one application. Originally prototyped in Python and Kivy, now being migrated to C++ and Qt for desktop-class performance. Database schema complete and seeded with Kenyan curriculum data.
+A data analytics platform designed to turn raw datasets into useful information through statistical analysis, interactive visualizations, and reporting.
 
-**Stack:** C++, Qt6, PostgreSQL, libpqxx, CMake
+The platform brings together analytical work across several domains, including health, economics, sports, climate, population, and finance.
+
+**Engineering highlights:**
+
+- Data processing and analysis with Pandas and NumPy.
+- Interactive visualizations using Plotly.
+- Automated PDF report generation.
+- Integration with external data sources.
+- Data retrieval and processing with fallback handling when external services are unavailable.
+
+**Stack:** Python, Streamlit, Pandas, NumPy, Plotly, ReportLab
 
 ---
 
-### Casanovae
+### BittOwl Forensics — Android Security Research
 
-A property rental platform spanning the full spectrum — from affordable couches to luxurious castles. Interactive maps powered by Leaflet.js and OpenStreetMap with color-coded property markers. Verified landlord badges. Favorite management with real-time updates. Mobile-first responsive design with a warm, cozy color palette. Built to make housing accessible at every price point.
+An Android security research project exploring device permissions, data access, and the privacy implications of mobile applications.
+
+The project examines how access to sensitive device resources can expose information about a user's device and activities.
+
+It provides an opportunity to study Android permissions, application behavior, local data handling, and the security implications of granting broad access to an application.
+
+**Engineering areas:** Android application development, permissions, device APIs, local storage, networking, and security analysis.
+
+**Stack:** Java, Android SDK, SQLite, Camera API, MediaRecorder
+
+---
+
+### GoldenMoney — Personal Finance Manager
+
+A desktop application for managing personal finances through a structured, offline-first interface.
+
+It brings together income, expenses, debts, budgets, and savings to help users understand their financial position.
+
+**Features:**
+
+- Income and expense tracking.
+- Budget and savings management.
+- Debt tracking.
+- Category-based spending analysis.
+- Financial charts and monthly comparisons.
+- PDF report generation.
+- Local SQLite storage.
+
+**Stack:** C++, Qt, SQLite, Qt Charts
+
+---
+
+### SMASYS — School Management System
+
+A school management system designed around the needs of Kenyan educational institutions.
+
+The system covers school administration and academic operations, with support for both the 8-4-4 and Competency-Based Curriculum (CBC) structures.
+
+**Engineering highlights:**
+
+- Relational database design.
+- Student and staff management.
+- Academic records and examinations.
+- Library inventory and school operations.
+- Multi-school architecture.
+- Migration and development across programming languages and desktop frameworks.
+
+**Stack:** C++, Qt, PostgreSQL, libpqxx, CMake  
+**Status:** Ongoing development and migration.
+
+---
+
+### Casanovae — Property Rental Platform
+
+A property rental platform designed to help people explore available accommodation across different budgets.
+
+It combines property listings, interactive maps, landlord verification indicators, and favorite management in a responsive interface.
+
+**Features:**
+
+- Property listings and discovery.
+- Interactive maps using Leaflet and OpenStreetMap.
+- Verified landlord indicators.
+- Favorite management.
+- Responsive, mobile-first design.
 
 **Stack:** Python, Django, SQLite, Leaflet.js, OpenStreetMap, Pillow, Geopy
 
 ---
 
-### Service Nest
+### Service Nest — Community Service Marketplace
 
-A community service marketplace connecting clients with trusted local providers. Multi-role authentication for clients, providers, and administrators. Intelligent booking with conflict prevention. Review and rating system for community-driven quality assurance. Professional provider dashboards with business analytics. Responsive across all devices with mobile-optimized card layouts. Built to keep services and payments circulating within local economies.
+A marketplace connecting customers with local service providers.
 
-**Stack:** Python, Flask, SQLAlchemy, SQLite, Jinja2, Vanilla JavaScript
+The platform supports the process of discovering providers, booking services, managing accounts, and evaluating service quality.
 
----
+**Features:**
 
-## Range
+- Separate client, provider, and administrator roles.
+- Authentication and access control.
+- Booking and scheduling with conflict prevention.
+- Reviews and ratings.
+- Provider dashboards and business analytics.
+- Responsive user interfaces.
 
-Web applications in Django and Flask. Data platforms in Streamlit. Android applications in Java. Desktop applications in C++ and Qt. Every project spans the full stack — database design, backend architecture, frontend implementation, and deployment. Seven complete systems. One engineering standard.
-
----
-
-## How I Work
-
-I am an introvert. I think best alone, without interruption. My best work happens between midnight and 4 AM — coffee nearby, classic hits flowing through headphones. Every distraction breaks the mental model I am holding, and rebuilding it takes time. Quiet, focused stretches are when the best work happens.
-
-My first languages were Python and C. Python taught me clarity. C taught me how computers actually work under the hood. That foundation shapes everything I build. I think in systems, not features. When I design a component, a database schema, or an API endpoint, I think about what happens when it fails, not just when it works.
-
-I was once a Mathematics and Chemistry teacher. The patience and clarity from those years still shape how I build and explain things today.
+**Stack:** Python, Flask, SQLAlchemy, SQLite, Jinja2, JavaScript
 
 ---
 
-## The Team
+## Engineering Across Platforms
 
-MwendaSoft is three people. Nadia Yasmin Almed shapes how users experience our products — design-first, React and TypeScript, fighting for the user in every conversation. Brian Ogolla Oduor builds the infrastructure that keeps our systems alive — backend architecture, API design, and automated pipelines that never break. Together we cover the full spectrum: analytical depth, visual clarity, and systemic resilience.
+| Area | Focus |
+|---|---|
+| **Web** | Business websites, REST APIs, dashboards, and management systems |
+| **Data** | Statistical analysis, data processing, visualization, and reporting |
+| **Android** | Native mobile applications and device-level integrations |
+| **Desktop** | C++ applications, database-driven software, and graphical interfaces |
+| **Automation** | Background jobs, scheduled tasks, integrations, and workflow improvements |
+
+I enjoy understanding how the different parts of a system work together. A working interface is only one part of a successful application; the data model, backend logic, security, deployment, and maintenance matter just as much.
 
 ---
 
-## Philosophy
+## How I Think
 
-**Precision Engineering. Reliable Results.**
+My academic background is in **Mathematics**, with a focus on **Statistics**.
 
-I do not build websites. I build systems. I do not trust code I have not audited. I will spend four hours optimizing a database query that takes two hundred milliseconds — not because it is necessary, but because it is wrong for it to be slow.
+I see a strong connection between mathematics and software engineering. Both require logical thinking, careful assumptions, structured problem-solving, and attention to the consequences of each decision.
+
+My first programming languages were **Python** and **C**. Python introduced me to productive, expressive development, while C helped me understand programming at a lower level.
+
+That foundation influences how I approach software today.
+
+I think in **systems, not just features.** When designing a database, API, or application component, I consider not only what should happen when everything works, but also what happens when something fails.
+
+I also believe that good engineering requires knowing **when not to introduce more complexity.**
+
+---
+
+## Beyond the Code
+
+Before focusing on software engineering, I worked as a Mathematics and Chemistry teacher and later served as **Head of Department for Mathematics and Sciences** for three years.
+
+My experience in education strengthened my ability to break down difficult concepts, explain technical ideas, and approach problems systematically.
+
+I also worked in **retail supervision**, where I gained exposure to everyday operational challenges, coordination, and the importance of reliable processes.
+
+These experiences reinforce my belief that technology should serve the people and processes that depend on it.
+
+---
+
+## Engineering Philosophy
+
+> **Precision Engineering. Reliable Results.**
+
+I value:
+
+- **Correctness** — Code should behave as intended and handle edge cases.
+- **Reliability** — Systems should remain dependable under expected conditions.
+- **Maintainability** — Software should be understandable and practical to improve.
+- **Security** — Data, accounts, and transactions deserve deliberate protection.
+- **Practicality** — Engineering decisions should address real requirements.
+- **Evidence** — Testing, documentation, and measurable results matter more than claims.
+
+I do not measure engineering quality by the number of technologies used or the amount of code written.
+
+I measure it by how well the solution addresses the problem, how reliably it works, and how effectively it can be maintained.
 
 ---
 
 ## Connect
 
-- **Website:** mwendasoft.com
+- **Website:** [mwendasoft.com](https://mwendasoft.com)
 - **Email:** mwenda@mwendasoft.com
-- **LinkedIn:** linkedin.com/in/mwendake
-- **Location:** Nairobi, Kenya
+- **GitHub:** [github.com/MwendaKE](https://github.com/MwendaKE)
 
 ---
 
-> "Code should be correct before it is clever, and reliable before it is impressive."
+*Code should be correct before it is clever, and reliable before it is impressive.*
